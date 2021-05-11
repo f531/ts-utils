@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "module": "es2015",
+        "target": "es2017",
+        "strict": true,
+        "sourceMap": true,
+        "declaration": true,
+        "isolatedModules": true,
+        "declarationDir": "dist/types",
+        "outDir": "dist/lib"
+    },
+    "include": [
+        "lib"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "@f531/utils",
+  "version": "1.0.0",
+  "author": "f531 <f531@f531.net>",
+  "description": "My personal utilities for programming with Typescript",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha --require ts-node/register test/**/*.spec.ts",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/f531/ts-utils.git"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.18",
+    "@types/mocha": "^8.2.2",
+    "chai": "^4.3.4",
+    "mocha": "^8.4.0",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4"
+  }
+}

@@ -1,12 +1,12 @@
 {
   "name": "@f531/utils",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "author": "f531 <f531@f531.net>",
   "description": "My personal utilities for programming with Typescript",
   "license": "MIT",
   "main": "dist/lib",
   "types": "dist/types",
-  "type":"module",
+  "type": "commonjs",
   "scripts": {
     "test": "mocha --require ts-node/register test/**/*.spec.ts",
     "build": "tsc",

@@ -1,6 +1,6 @@
 import { describe, it } from 'mocha'
 import { expect } from 'chai'
-import { ensure } from '../lib'
+import { ensure } from '../lib/index'
 
 describe('ensure', () => {
     describe('without condition', () => {
@@ -20,13 +20,6 @@ describe('ensure', () => {
             const string = 'hello world'
             const len = string.length
             ensure({ string }, ({ length }) => length === len)
-        })
-        it('should fail because "string" is undefined', () => {
-            expect(() => {
-                const string = undefined
-                const len = 0
-                ensure({ string }, ({ length }) => length === len)
-            }).to.throw()
         })
         it('should fail because condition fails', () => {
             expect(() => {

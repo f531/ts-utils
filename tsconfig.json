@@ -1,13 +1,14 @@
 {
     "compilerOptions": {
-        "module": "es2015",
+        "module": "commonjs",
         "target": "es2017",
         "strict": true,
         "sourceMap": true,
         "declaration": true,
         "isolatedModules": true,
         "declarationDir": "dist/types",
-        "outDir": "dist/lib"
+        "outDir": "dist/lib",
+        "moduleResolution": "node"
     },
     "include": [
         "lib"

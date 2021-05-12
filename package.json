@@ -4,12 +4,13 @@
   "author": "f531 <f531@f531.net>",
   "description": "My personal utilities for programming with Typescript",
   "license": "MIT",
-  "main": "lib",
-  "types": "lib",
+  "main": "dist/lib",
+  "types": "dist/types",
   "type":"module",
   "scripts": {
     "test": "mocha --require ts-node/register test/**/*.spec.ts",
-    "build": "tsc"
+    "build": "tsc",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",

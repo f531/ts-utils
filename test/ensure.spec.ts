@@ -1,6 +1,6 @@
 import { describe, it } from 'mocha'
 import { expect } from 'chai'
-import { ensure } from '../lib/index'
+import { ensure } from '../src'
 
 describe('ensure', () => {
     describe('without condition', () => {

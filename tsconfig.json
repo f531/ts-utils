@@ -6,11 +6,11 @@
         "sourceMap": true,
         "declaration": true,
         "isolatedModules": true,
-        "declarationDir": "dist/types",
-        "outDir": "dist/lib",
+        "declarationDir": "lib",
+        "outDir": "lib",
         "moduleResolution": "node"
     },
     "include": [
-        "lib"
+        "src"
     ]
 }
